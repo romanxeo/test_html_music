@@ -1,0 +1,19 @@
+.tour_revenue {
+    background: #0d0d0d;
+    border-radius: 20px;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.tour_revenue_title {
+    font-size: 1.5rem;
+
+}
+
+.tour_revenue_subtitle {
+    font-size: 1.5rem;
+    color: #1d7f66;
+}

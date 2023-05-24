@@ -1,0 +1,32 @@
+.main_section {
+  padding: 2%;
+}
+
+.main {
+  background: #00000036;
+  border-radius: 20px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+}
+
+.additional {
+  padding: 2% 2%;
+  display: grid;
+  gap: 2%;
+  grid-template-rows: 1fr 1fr;
+}
+
+.additional_top {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 2%;
+  text-align: left;
+}
+
+.additional_bottom {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 2%;
+  text-align: left;
+}

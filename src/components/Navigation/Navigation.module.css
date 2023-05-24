@@ -1,0 +1,53 @@
+.app_nav {
+  height: 100%;
+  background: #0a0a0a57;
+  border-radius: 20px 0 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+.app_nav ul{
+  margin: 0;
+  padding: 0;
+}
+
+.head_nav_section {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.menu img, .menu_second img {
+  max-width: 20px;
+  opacity: 0.5;
+}
+
+.menu img:hover, .menu_second img:hover, .menu img:focus, .menu_second img:focus{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+}
+
+.menu_second {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+
+.logo_img {
+  width: 50px !important;
+  box-shadow: 0 0 11px 0 #ffffff;
+  border-radius: 60px;
+}
+

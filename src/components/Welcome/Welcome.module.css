@@ -1,0 +1,77 @@
+.welcome {
+    background: #0d0d0d;
+    border-radius: 20px;
+    padding: 5%;
+}
+
+.welcome_logo img{
+    width: 20%;
+}
+
+.welcome_main {
+    margin-left: 10%;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: -4%;
+}
+
+.welcome_form {
+    font-size: 0.8rem;
+    background: #161516;
+    font-family: sans-serif;
+    box-shadow: inset 0 0 50px #d3d3d31a;
+    padding: 6% 4%;
+    border-radius: 40px;
+    text-align: left;
+    margin-top: 10px;
+
+}
+
+.welcome_form button {
+    background: #0d4718;
+    padding: 2%;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+}
+
+.welcome_form button:hover {
+    cursor: pointer;
+}
+
+.welcome_form input {
+    border-radius: 10px;
+    border: 1px solid #133f1b;
+    background: none;
+    padding: 5px;
+    color: #fff;
+}
+
+.welcome_form input::placeholder {
+    font-style: italic;
+}
+
+.welcome_form_buttons_section {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.welcome_form input:focus {
+    border: none;
+}
+
+.welcome_form p{
+    text-align: center;
+}
+
+.welcome_form input{
+    text-align: center;
+}
+
+.welcome_form_title {
+
+}
